@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+
+.login-form-wrap {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+
+}
+
+
+label {
+    margin-bottom: 20px;
+
+}

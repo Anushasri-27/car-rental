@@ -15,7 +15,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height:90vh; 
+    height:80vh; 
 }
 .register-cust{
     width: 40vw;
@@ -28,7 +28,7 @@ a{
     font-weight: bolder;
     text-align: justify;
     text-shadow: 1px 1px 10px rgb(23, 22, 22);
-    
+    font-size: 1rem;
  
 }
 .register-agent{
@@ -42,7 +42,7 @@ a{
     font-weight: bolder;
     text-align: justify;
     text-shadow: 1px 1px 10px rgb(23, 22, 22);
-  
+    font-size: 1rem;
 }
 h1{
     color: yellow;
@@ -51,6 +51,13 @@ h1{
   
 }
 
-footer{
-    margin-bottom: 0;
+
+
+.login-btn-wrap{
+    display: flex;
+    justify-content: center;
+}
+.login-btn{
+    width: 30vw;
+    background:linear-gradient(rgba(255, 255, 255, 0.54),rgba(131, 130, 130, 0.419));
 }
