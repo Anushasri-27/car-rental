@@ -1,0 +1,18 @@
+div{
+    border: 2px red solid;
+}
+.register-wrap{
+    display: flex;
+    flex-direction: row;
+    height:70vh; 
+}
+.register-cust{
+    width: 50vw;
+}
+.register-agent{
+    width: 50vw;
+}
+
+footer{
+    margin-bottom: 0;
+}
