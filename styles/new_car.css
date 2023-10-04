@@ -1,0 +1,107 @@
+body{
+    background-image: url(../styles/register.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.car-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 35vw;
+   
+   
+  }
+
+input{
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 2px black solid;
+    background-color: rgba(173, 173, 64, 0.91);
+    padding: 5px;
+    text-align: center;
+    
+   
+  }
+
+#m_name{
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 2px solid dashed;
+    background-color: rgba(180, 210, 127, 0.942);
+    text-align: center;
+  }
+
+.btn{
+    background-color: rgba(163, 9, 9, 0.837);
+    color: aliceblue;
+    text-align: center;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 2px black solid;
+}
+.logout{
+  background-color: rgba(163, 9, 9, 0.837);
+  color: aliceblue;
+  text-align: center;
+  width: 10vw;
+  height: 7vh;
+  border-radius: 100px;
+  margin-top: 20px;
+  border: 2px black solid;
+}
+
+.upform{
+  backdrop-filter: blur(5px);
+  position:fixed;
+  top:0;
+  height: 100vh;
+  border-right: 2px solid white;
+}
+
+.car-display{
+  height: 100vh;
+  overflow:scroll;
+  scroll-behavior:smooth;
+  width: 62vw;
+  position:fixed;
+  right: 0;
+  margin-top: 5px;
+
+}
+
+#customers{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+#customers td, #customers th {
+  border: none;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #a78a55;}
+
+#customers tr:hover {background-color:#da9e2f;}
+
+#customers th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #aa2b04e1;
+  color: rgb(233, 220, 220);
+}
